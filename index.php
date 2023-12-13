@@ -20,7 +20,7 @@ if (isset($_GET['add'])) {
       $msg = '<div id="msg" class="alert alert-danger"><strong>Unable To Add</strong></div>';
     }
   } else {
-    echo "<script type='text/javascript'> document.location = 'login.php'; </script>";
+      echo "<script type='text/javascript'> document.location = 'login.php'; </script>";
   }
 } else {
 }
@@ -33,7 +33,7 @@ if (isset($_GET['add'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IDStore | Online Store for Latest Trends</title>
+  <title>ShopIn</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -123,7 +123,7 @@ if (isset($_GET['add'])) {
       <h3 class="py-4">Womens</h3>
       <div class="row">
 
-        <?php
+      <?php
 
         // FECTH PRODUCTS
         $sql = "SELECT * from products WHERE category='Women' ORDER BY RAND() LIMIT 4";
