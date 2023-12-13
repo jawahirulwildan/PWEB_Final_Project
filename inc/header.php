@@ -1,7 +1,7 @@
 <div class="container-fluid bg-dark">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark p-4">
-            <a class="navbar-brand mr-5 font-weight-bold" href="index.php">TrendZ</a>
+            <a class="navbar-brand mr-5 font-weight-bold" href="index.php">IDStore</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,7 @@
                         <a class="nav-link"> | </a>
                     </li>
 
-                    <?php if (strlen(isset($_SESSION['login']) == 0)){ ?>
+                    <?php if (strlen(isset($_SESSION['login']) == 0)) { ?>
                         <li class="nav-item active">
                             <a class="nav-link" href="login.php">Login / Register</a>
                         </li>
