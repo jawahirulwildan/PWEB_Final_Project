@@ -11,11 +11,11 @@
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none" href="tel:0812345678">0812345678</a>
+                        <a style="color: inherit;" href="tel:0812345678">0812345678</a>
                     </li>
                     <li>
                         <i class="fa fa-envelope fa-fw"></i>
-                        <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                        <a style="color: inherit;" href="mailto:info@company.com">info@company.com</a>
                     </li>
                 </ul>
             </div>
@@ -23,24 +23,24 @@
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="mens.php">Mens</a></li>
-                    <li><a class="text-decoration-none" href="women.php">Womans</a></li>
-                    <li><a class="text-decoration-none" href="kids.php">Kids</a></li>
+                    <li><a style="color: inherit;" href="mens.php">Mens</a></li>
+                    <li><a style="color: inherit;" href="women.php">Womans</a></li>
+                    <li><a style="color: inherit;" href="kids.php">Kids</a></li>
                 </ul>
             </div>
 
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="index.php">Home</a></li>
-                    <li><a class="text-decoration-none" href="about.php">About Us</a></li>
-                    <li><a class="text-decoration-none" href="index.php">Contact</a></li>
+                    <li><a style="color: inherit;" href="index.php">Home</a></li>
+                    <li><a style="color: inherit;" href="about.php">About Us</a></li>
+                    <li><a style="color: inherit;" href="index.php">Contact</a></li>
                 </ul>
             </div>
 
         </div>
 
-        <div class="row text-light mb-4">
+        <!-- <div class="row text-light mb-4">
             <div class="col-auto">
                 <label class="sr-only" for="subscribeEmail">Email address</label>
                 <div class="input-group mb-2">
@@ -48,7 +48,7 @@
                     <div class="input-group-text btn-success">Subscribe</div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="w-100 bg-black py-3">

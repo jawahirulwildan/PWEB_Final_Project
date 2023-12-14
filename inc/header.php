@@ -8,20 +8,20 @@
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link font-weight-bold" href="index.php">Home</a>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link font-weight-semibold" href="index.php">Home</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link font-weight-bold" href="mens.php">Mens</a>
+                        <a class="nav-link font-weight-semibold" href="mens.php">Mens</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link font-weight-bold" href="women.php">Womens</a>
+                        <a class="nav-link font-weight-semibold" href="women.php">Womens</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link font-weight-bold" href="kids.php">Kids</a>
+                        <a class="nav-link font-weight-semibold" href="kids.php">Kids</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link font-weight-bold" href="about.php">About Us</a>
+                        <a class="nav-link font-weight-semibold" href="about.php">About Us</a>
                     </li>
 
                 </ul>

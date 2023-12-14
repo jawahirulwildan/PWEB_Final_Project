@@ -70,9 +70,10 @@ if (isset($_GET['add'])) {
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="./img/products/<?php echo $result->img; ?>" alt="<?php echo $result->title; ?>" title="<?php echo $result->title; ?>"></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#"><?php echo $result->title; ?></a>
-                  </h4>
+                  <h5 class="card-title font-weight-bold">
+                    
+                    <?php echo $result->title; ?>
+                  </h5>
                   <h5><?php echo CURRENCY ?> <?php echo $result->price; ?></h5>
                   <a href="index.php?add=<?php echo $result->id; ?>" class="btn btn-dark mt-2">Add To Cart</a>
                 </div>
@@ -103,9 +104,9 @@ if (isset($_GET['add'])) {
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="./img/products/<?php echo $result->img; ?>" alt="<?php echo $result->title; ?>" title="<?php echo $result->title; ?>"></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#"><?php echo $result->title; ?></a>
-                  </h4>
+                  <h5 class="card-title font-weight-bold">
+                    <?php echo $result->title; ?>
+                  </h5>
                   <h5><?php echo CURRENCY ?> <?php echo $result->price; ?></h5>
                   <a href="index.php?add=<?php echo $result->id; ?>" class="btn btn-dark mt-2">Add To Cart</a>
                 </div>
@@ -137,9 +138,9 @@ if (isset($_GET['add'])) {
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="./img/products/<?php echo $result->img; ?>" alt="<?php echo $result->title; ?>" title="<?php echo $result->title; ?>"></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#"><?php echo $result->title; ?></a>
-                  </h4>
+                  <h5 class="card-title font-weight-bold">
+                    <?php echo $result->title; ?>
+                  </h5>
                   <h5><?php echo CURRENCY ?> <?php echo $result->price; ?></h5>
                   <a href="index.php?add=<?php echo $result->id; ?>" class="btn btn-dark mt-2">Add To Cart</a>
                 </div>
