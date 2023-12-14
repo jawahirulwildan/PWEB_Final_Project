@@ -87,7 +87,7 @@ if (isset($_SESSION['user'])) {
             <div class="container mt-5 p-5">
                 <div class="clearfix">
                     <h3 class="py-4 float-left">My Cart</h3>
-                    <h3 class="py-4 float-right">Total : <?php echo CURRENCY; ?> <?php echo $total->total; ?></h3>
+                    <h3 class="py-4 float-right">Total : <?php echo CURRENCY; ?> <?php echo $total->total; ?>.000</h3>
                 </div>
 
                 <div class="row justify-content-md-center">

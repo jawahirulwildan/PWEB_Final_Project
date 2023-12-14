@@ -20,6 +20,9 @@
                     <li class="nav-item ml-2">
                         <a class="nav-link font-weight-bold" href="kids.php">Kids</a>
                     </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link font-weight-bold" href="about.php">About Us</a>
+                    </li>
 
                 </ul>
 

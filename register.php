@@ -19,8 +19,12 @@ if (isset($_POST['submit'])) {
     if ($lastInsertId) {
         $_SESSION['login']=$_POST['username'];
         echo "<script>alert('Thanks For Register, Continue Your Shopping')</script>";
+        header("Location: login.php");
+        exit;
     } else {
         echo "<script>alert('Please Fill All Valid Details')</script>";
+        header("Location: signup.php");
+        exit;
     }
 }
 
@@ -31,7 +35,7 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrendZ | Online Store for Latest Trends</title>
+    <title>ShopIn</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
